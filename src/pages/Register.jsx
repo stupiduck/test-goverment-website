@@ -40,8 +40,8 @@ function Register() {
         <table className="form-table">
           <tbody>
             <tr>
-              <td className="label-cell"><label htmlFor="aadharNumber">Aadhar Number (12 Digits) <span className="req">*</span></label></td>
-              <td className="input-cell"><input type="text" id="aadharNumber" required placeholder="0000 0000 0000" maxLength="12" /></td>
+              <td className="label-cell"><label htmlFor="aadharUpload">Aadhar Card Upload (PDF/JPG) <span className="req">*</span></label></td>
+              <td className="input-cell"><input type="file" id="aadharUpload" accept=".pdf,.jpg,.jpeg,.png" required /></td>
             </tr>
             <tr>
               <td className="label-cell"><label htmlFor="fullName">Full Name (As per Aadhar) <span className="req">*</span></label></td>
